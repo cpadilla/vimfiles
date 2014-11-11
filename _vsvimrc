@@ -1,0 +1,77 @@
+" vimrc
+" created by Christofer Padilla
+
+" This must be set first, because it changes other options as a side effect.
+set nocompatible
+
+" Show line numbers
+set number
+
+" General Config
+set smartcase
+set ic
+
+" Consider '_' as a keyword
+set iskeyword-=_
+
+" Configure indentation
+set autoindent
+set smartindent
+set smarttab
+set expandtab
+set softtabstop=4
+set shiftwidth=4
+
+" Backspace compatibility
+set backspace=indent,eol,start
+
+" ==============================================================================
+"                                 Remap Keys
+" ==============================================================================
+" See this helpful explanation on the difference between mappings
+" http://stackoverflow.com/questions/3776117/what-is-the-difference-between-the-remap-noremap-nnoremap-and-vnoremap-mapping
+
+" Remap beginning of line key (0) to ^B (Shift-b)
+noremap <S-B> 0w
+
+" Remap end of line key ($) to ^E (Shift-e)
+noremap <S-E> <S-$>
+nnoremap <S-E> <S-$>
+
+" Remaps increment/decrement command to Ctrl-a/Ctrl-x
+" noremap <expr> p v:register=='"'?'pbvey':'p'
+nnoremap <A-=> <C-a>
+nnoremap <A--> <C-x>
+
+" Remap % to center on screen when finished
+nnoremap % %zz
+
+" Remap zt and zb to give it an extra offset
+nnoremap zt zt2<C-y>
+nnoremap zb zb2<C-e>
+
+" Allow <Tab> to indent
+" for command mode
+nmap <Tab> >>
+vmap <Tab> >
+" for insert mode
+" imap <Tab> <Esc>>>i
+
+" Allow <Shift-Tab> to unindent
+" for command mode
+nmap <S-Tab> <<
+vmap <S-Tab> <
+" for insert mode
+imap <S-Tab> <Esc><<i
+
+" Remap repeat last macro to `
+nnoremap ` @q
+
+" Saves folds when you close a file and loads them when you open it again
+autocmd BufWinLeave *.* mkview!
+autocmd BufWinEnter *.* silent loadview
+
+" vimrc source
+source $VIMRUNTIME/vimrc_example.vim
+source $VIMRUNTIME/mswin.vim
+behave mswin
