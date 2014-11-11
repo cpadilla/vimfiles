@@ -154,6 +154,11 @@ nmap <silent> <A-Right> :wincmd l<CR>
 " :: grabs the last command
 " TODO
 
+" noremap <C-Tab> :tabn
+" noremap <C-S-Tab> :tabp
+noremap <C-Tab> gt
+noremap <C-S-Tab> gT
+
 " Display tabs and trailing spaces visually
 set list listchars=tab:\ \ ,trail:·
 
@@ -182,7 +187,8 @@ nmap <F8> :TagbarToggle<CR>
 :command! TODO :e home.note
 :command! TAB :tabnew
 :command! NEW :tabnew
-:command! VIM :e $VIM\_vimrc
+:command! VIM :e $VIM
+:command! VIMRC :e $VIM\_vimrc
 
 " ==============================================================================
 "                                    Folds
