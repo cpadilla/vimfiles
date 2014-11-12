@@ -72,6 +72,4 @@ autocmd BufWinLeave *.* mkview!
 autocmd BufWinEnter *.* silent loadview
 
 " vimrc source
-source $VIMRUNTIME/vimrc_example.vim
-source $VIMRUNTIME/mswin.vim
 behave mswin
