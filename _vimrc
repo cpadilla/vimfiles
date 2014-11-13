@@ -34,8 +34,9 @@ cd $GOOGLEDRIVE
 " colorscheme rdark
 " colorscheme kalisi
    " set background=dark
-colorscheme muon
+" colorscheme muon
 " colorscheme chlordane
+colorscheme cthulhian
 
 
 

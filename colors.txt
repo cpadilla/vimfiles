@@ -1,0 +1,60 @@
+                                  ==========
+                                  Vim Colors
+                                  ==========
+
+Dark:
+    *chance of storm
+    *code school        Really nice medium grey theme
+    *ir_black           Really good looking theme with jet black background
+    jellyx              Similar to ir_black
+    *jellybeans         Really good color pallete for a dark brown theme
+    elda               Dark theme with blue text - ALL blue text TT
+    ego
+    *lodestone          Really homey feel; Reminds me of dungeons
+    rdark               You know
+    *mdark              A nice dark theme
+    *mustang            Stang. A darker theme than mdark
+    mrpink              Pretty simple dark grey theme with a nice color splash
+
+Brown:
+    *busybee            Really dark brown theme
+    *darkspectrum       Western brown theme
+    earendel
+    desertEx
+    hornet
+    manuscript          Medium grey
+    industrial          Kinda interesting iron theme
+    kellys
+    lucius              Kind of like kiwi
+    *nefriti             Mochalatte
+
+Blue:
+    *cthulhian          For when I'm feeling the Deep Terror Thresh
+    *maroloccio         A dark midnight theme. Think Vayne
+    dusk
+    blueprint
+    heroku              Kind of a slate grey/blue theme
+
+Paper:
+    *blueshift
+    fruidle             Fruity
+    fruit
+    grape               Moleskin theme
+    heliotrope          Kind of a grassy feel
+    guepardo            Light blue notebook feel
+    mayansmoke          A light smokey theme
+    neutron             Old typwriter style
+    *nuvola             Nice kinda googley style
+
+Light:
+    dual                Pretty standard dev scheme
+    louver              similar to dual
+    chela light         Standard
+    google
+    *habiLight
+
+Matrix Code:
+    *chlordane          Matrix with better color pallete
+    greenvision         Straight up matrix mode
+    matrix              Exactly what you would expect
+
