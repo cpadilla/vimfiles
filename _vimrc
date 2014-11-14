@@ -31,12 +31,12 @@ cd $GOOGLEDRIVE
 " colorscheme chance-of-storm
 " colorscheme nefertiti
 " colorscheme maroloccio         " A dark midnight theme. Think Vayne
-" colorscheme rdark
+colorscheme rdark
 " colorscheme kalisi
    " set background=dark
 " colorscheme muon
 " colorscheme chlordane
-colorscheme cthulhian
+" colorscheme cthulhian
 
 
 
