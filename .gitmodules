@@ -4,3 +4,6 @@
 [submodule "bundle/vim-airline"]
 	path = bundle/vim-airline
 	url = http://www.github.com/bling/vim-airline
+[submodule "vim-session"]
+	path = vim-session
+	url = https://github.com/xolox/vim-session
