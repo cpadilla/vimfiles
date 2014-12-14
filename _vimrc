@@ -172,8 +172,11 @@ set list listchars=tab:\ \ ,trail:·
 
 " Change the backup directory so you don't have to see the swap/backup files
 set backup              " Turn on backup
-set backupdir=C:\temp   " Set where to store backups
-set dir=C:\temp         " Set where to store the swap files
+set backupdir=C:\\temp   " Set where to store backups
+set dir=C:\\temp         " Set where to store the swap files
+
+" fix E303
+set directory=.,$TEMP
 
 " === PLUGINS ===
 " Tagbar
