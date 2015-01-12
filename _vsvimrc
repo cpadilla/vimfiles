@@ -31,6 +31,9 @@ set backspace=indent,eol,start
 " See this helpful explanation on the difference between mappings
 " http://stackoverflow.com/questions/3776117/what-is-the-difference-between-the-remap-noremap-nnoremap-and-vnoremap-mapping
 
+" map control-backspace to delete the previous word
+:imap <C-BS> <C-W>
+
 " Remap beginning of line key (0) to ^B (Shift-b)
 noremap <S-B> 0w
 

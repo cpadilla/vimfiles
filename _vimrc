@@ -152,6 +152,15 @@ nmap <silent> <A-Down> :wincmd j<CR>
 nmap <silent> <A-Left> :wincmd h<CR>
 nmap <silent> <A-Right> :wincmd l<CR>
 
+" Remap Ctrl A
+map <C-a> <Esc>ggvG
+
+" Remap Ctrl C
+vmap <C-C> "+y
+
+" Remap Ctrl V
+map <C-V> "+gP
+
 " :: grabs the last command
 " TODO
 
