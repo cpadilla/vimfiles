@@ -204,6 +204,7 @@ nmap <F8> :TagbarToggle<CR>
 " ==============================================================================
 
 :command! HOME :e home.note
+:command! HOST :tabnew :args hosts.lnk hosts_mine\ -\ Shortcut.lnk | vertical all
 :command! TODO :e home.note
 :command! TAB :tabnew
 :command! NEW :tabnew
