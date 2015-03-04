@@ -70,6 +70,10 @@ imap <S-Tab> <Esc><<i
 " Remap repeat last macro to `
 nnoremap ` @q
 
+" Remap ; to $
+nnoremap ; $
+vnoremap ; $
+
 " Saves folds when you close a file and loads them when you open it again
 autocmd BufWinLeave *.* mkview!
 autocmd BufWinEnter *.* silent loadview
