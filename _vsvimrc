@@ -71,6 +71,7 @@ imap <S-Tab> <Esc><<i
 nnoremap ` @q
 
 " Remap ; to $
+noremap ; $
 nnoremap ; $
 vnoremap ; $
 
