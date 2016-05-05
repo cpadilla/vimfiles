@@ -32,7 +32,8 @@ cd $GOOGLEDRIVE
 " colorscheme chance-of-storm
 " colorscheme nefertiti
 " colorscheme maroloccio         " A dark midnight theme. Think Vayne
-colorscheme rdark
+"colorscheme rdark
+colorscheme gruvbox
 " colorscheme kalisi
    " set background=dark
 " colorscheme muon
@@ -268,6 +269,8 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree.git'
 Plugin 'vim-airline/vim-airline.git'
 Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'morhetz/gruvbox'
+Plugin 'tomtom/tcomment_vim'
 
 " ==============================================================================
 "                               Plugin commands
