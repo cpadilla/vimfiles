@@ -1,4 +1,5 @@
 view/
+bundle/
 doc/tags
 misc/notes/index.pickle
 misc/notes/recent.txt

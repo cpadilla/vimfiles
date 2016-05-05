@@ -2,7 +2,7 @@
 " ==============================================================================
 "                                   vimrc
 "                       created by Christofer Padilla
-" last edit 11.7.2014
+" last edit 5.5.2016
 " ==============================================================================
 " ==============================================================================
 
@@ -18,6 +18,7 @@
 
 " This must be set first, because it changes other options as a side effect.
 set nocompatible
+filetype off    " Vundle required
 
 " Set working directory as my Google Drive folder to sync vimrc
 cd $GOOGLEDRIVE
@@ -262,6 +263,34 @@ set sidescroll=2
 " nnoremap <space>q :q<CR>
 
 " ==============================================================================
+"                                  Vundle
+" ==============================================================================
+
+" set the runtime path to include Vundle and initialize
+set rtp+=$HOME/vimfiles/bundle/Vundle.vim
+call vundle#rc('$HOME/vimfiles/bundle/')
+
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'scrooloose/nerdtree.git'
+Plugin 'vim-airline/vim-airline.git'
+
+" ==============================================================================
+"                               Plugin commands
+" ==============================================================================
+
+" enable airline
+let g:airline#extensions#tabline#enabled = 1
+
+" start NERDTree on startup
+" autocmd vimenter * NERDTree
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+
+"call vundle#end()
+filetype plugin indent on
+
+
+" ==============================================================================
 "                                  Source
 " ==============================================================================
 " vimrc source
@@ -269,11 +298,6 @@ set sidescroll=2
 " source $VIMRUNTIME/mswin.vim
 runtime vimrc
 behave mswin
-
-" ==============================================================================
-"                                  Pathogen
-" ==============================================================================
-execute pathogen#infect()
 
 " ==============================================================================
 "                                  Functions
