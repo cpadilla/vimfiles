@@ -21,7 +21,7 @@ set nocompatible
 filetype off    " Vundle required
 
 " Set working directory as my Google Drive folder to sync vimrc
-cd $GOOGLEDRIVE
+" cd $GOOGLEDRIVE
 
 " ==============================================================================
 "                                Color Schemes
@@ -33,7 +33,7 @@ cd $GOOGLEDRIVE
 " colorscheme nefertiti
 " colorscheme maroloccio         " A dark midnight theme. Think Vayne
 " colorscheme rdark
-" colorscheme gruvbox
+colorscheme gruvbox
 " colorscheme kalisi
    " set background=dark
 " colorscheme muon
@@ -222,6 +222,7 @@ nmap <F8> :TagbarToggle<CR>
 :command! NEW :tabnew
 :command! VIM :e $VIM
 :command! VIMRC :e $VIM\_vimrc
+:command! NE :NERDTree
 
 " ==============================================================================
 "                                    Folds
