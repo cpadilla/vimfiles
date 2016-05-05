@@ -32,8 +32,8 @@ cd $GOOGLEDRIVE
 " colorscheme chance-of-storm
 " colorscheme nefertiti
 " colorscheme maroloccio         " A dark midnight theme. Think Vayne
-"colorscheme rdark
-colorscheme gruvbox
+" colorscheme rdark
+" colorscheme gruvbox
 " colorscheme kalisi
    " set background=dark
 " colorscheme muon
@@ -168,6 +168,12 @@ map <C-V> "+gP
 noremap ; $
 nnoremap ; $
 vnoremap ; $
+
+" remap ctrl k + c to tcomment comment and ctrl k + u to uncomment
+nmap <C-k><C-c> gcc
+nmap <C-k><C-u> g<c
+xmap <C-k><C-c> g>b
+xmap <C-k><C-u> g<b
 
 " :: grabs the last command
 " TODO
