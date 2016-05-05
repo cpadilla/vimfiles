@@ -175,10 +175,8 @@ vnoremap ; $
 "                                  TABS
 " ==============================================================================
 
-" noremap <C-Tab> :tabn
-" noremap <C-S-Tab> :tabp
-noremap <C-Tab> gt
-noremap <C-S-Tab> gT
+noremap <C-Tab> :bn<CR>
+noremap <C-S-Tab> :bp<CR>
 
 " Ctrl+T to open new tab
 noremap <C-t> :tabnew<Return>
@@ -269,6 +267,7 @@ call vundle#rc('$HOME/vimfiles/bundle/')
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree.git'
 Plugin 'vim-airline/vim-airline.git'
+Plugin 'ctrlpvim/ctrlp.vim'
 
 " ==============================================================================
 "                               Plugin commands
