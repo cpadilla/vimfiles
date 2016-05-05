@@ -117,10 +117,6 @@ set backspace=eol,indent,start
 " Search for visually selected text
 vnorem // y/<C-r>"<cr>
 
-" Remaps H and L to :bn and :bp respectively
-nmap H :bn<CR>
-nmap L :bn<CR>
-
 " Remaps increment/decrement command to Alt-=/Alt--
 " noremap <expr> p v:register=='"'?'pbvey':'p' " I don't think this is working
 nnoremap <A-=> <C-a>
