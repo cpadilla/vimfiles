@@ -32,8 +32,8 @@ filetype off    " Vundle required
 " colorscheme chance-of-storm
 " colorscheme nefertiti
 " colorscheme maroloccio         " A dark midnight theme. Think Vayne
-" colorscheme rdark
-colorscheme gruvbox
+colorscheme rdark
+" colorscheme gruvbox
 " colorscheme kalisi
    " set background=dark
 " colorscheme muon
@@ -197,7 +197,7 @@ set backupdir=C:\\temp   " Set where to store backups
 set dir=C:\\temp         " Set where to store the swap files
 
 " fix E303
-set directory=.,$TEMP
+set directory=$TEMP
 
 " === PLUGINS ===
 " Tagbar
